@@ -1,9 +1,10 @@
-package rex.okskygo.practicemvrx
+package rex.okskygo.practicemvrx.view.main
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import rex.okskygo.practicemvrx.BaseActivity
+import rex.okskygo.practicemvrx.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
