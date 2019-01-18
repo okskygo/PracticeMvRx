@@ -23,6 +23,13 @@ class MainFragment : BaseFragment() {
             subtitle("Simple MvRx usage")
             clickListener { _ -> navigateTo(R.id.action_main_to_helloWorldFragment) }
         }
+
+        basicRow {
+            id("retrofit_coroutines")
+            title("Retrofit Coroutines")
+            subtitle("Simple Coroutines usage")
+            clickListener { _ -> navigateTo(R.id.action_main_to_PostListFragment) }
+        }
     }
 
 }
